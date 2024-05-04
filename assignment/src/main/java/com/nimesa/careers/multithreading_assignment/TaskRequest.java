@@ -54,4 +54,12 @@ public class TaskRequest {
     public void setSize(int size) {
         this.size = size;
     }
+
+    @Override
+    public String toString() {
+        return "TaskRequest [id=" + id + ", submittedBy=" + submittedBy + ", priority=" + priority + ", type=" + type
+                + ", size=" + size + "]";
+    }
+
+    
 }
